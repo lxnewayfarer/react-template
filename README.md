@@ -1,13 +1,14 @@
 # Template app
 
-Basic React app for any purpose
+Basic React app for any purpose based on @mui/material lib
 
 - Navigation bar (`src/Navigation.js`)
 - Footer (`src/AppFooter.js`)
 - Landing home page with blocks of information (`src/Landing.js`)
 - Profile page with GitHub OAuth button (`src/Profile.js`)
+- Pricing page (`src/Pricing.js`)
 
-You may remove any of elements
+You may remove any of components and change them as you wish
 
 ## Development
 
@@ -31,3 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### Profile page with GitHub OAuth:
 
 ![screenshot](https://github.com/lxnewayfarer/react-template/blob/main/screenshots/profile.png)
+
+### Pricing:
+
+![screenshot](https://github.com/lxnewayfarer/react-template/blob/main/screenshots/pricing.png)

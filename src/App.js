@@ -5,6 +5,7 @@ import AppFooter from "./AppFooter";
 import Landing from "./Landing";
 import Profile from "./Profile";
 import Navigation from "./Navigation";
+import Pricing from "./Pricing";
 
 const Container = styled("div")`
   display: flex;
@@ -20,6 +21,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
         <AppFooter />
       </Container>

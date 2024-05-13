@@ -1,30 +1,11 @@
 // Profile.js
 import React from "react";
 import styled from "styled-components";
+import Button from "./Button";
 
 const ProfileContainer = styled.div`
   text-align: center;
   padding: 20px;
-`;
-
-const Button = styled.button`
-  background-color: #eee;
-  color: black;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
-  display: flex;
-  align-items: center; /* Центрируем содержимое вертикально */
-  justify-content: center; /* Центрируем содержимое горизонтально */
-  line-height: 1; /* Устанавливаем высоту строки равной 1, чтобы выровнять текст по центру */
-  height: auto; /* Разрешаем кнопке изменять высоту в зависимости от её содержимого */
-  margin: auto; /* Выравниваем по центру горизонтально */
-
-  &:hover {
-    background-color: #ccc; /* Темно-зеленый цвет при наведении */
-  }
 `;
 
 const GithubIcon = styled.img`
