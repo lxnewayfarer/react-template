@@ -1,6 +1,6 @@
 // Profile.js
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const ProfileContainer = styled.div`
   text-align: center;
@@ -41,8 +41,12 @@ const Profile = () => {
     <ProfileContainer>
       <h2>Welcome to Your Profile</h2>
       <Button onClick={handleLogin}>
-        <GithubIcon src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo" />
-        <span>Login with GitHub</span> {/* Оборачиваем текст в span для применения line-height */}
+        <GithubIcon
+          src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          alt="GitHub Logo"
+        />
+        <span>Login with GitHub</span>{" "}
+        {/* Оборачиваем текст в span для применения line-height */}
       </Button>
     </ProfileContainer>
   );
