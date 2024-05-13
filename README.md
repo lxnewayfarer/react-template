@@ -19,6 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 `npx prettier --write .` Run prettier on full repository
 
 `SHIFT + ALT + F` (With VSCode Prettier extension) format document
+
 ## Screenshots
 
 ### Landing
